@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* MENU */
+header {
+    background-color: #2e7d32;
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo {
+    width: 80px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* CONTEÚDO */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    color: #2e7d32;
+}
+
+/* PRODUTOS */
+.produto {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+/* FORMULÁRIO */
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #256428;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nome-loja {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+header {
+    background-color: #2e7d32;
+    padding: 15px 40px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.banner img {
+    max-width: 250px;
+}
+
+.texto-banner h1 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.texto-banner h2 {
+    margin-bottom: 10px;
+}
+p {
+    line-height: 1.6;
+}
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.menu a {
+  background-color: #388e3c;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  background-color: #66bb6a;
+}
+
+.topo {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #ffffff; /* fundo claro */
+}
+
+.logo-grande {
+  max-width: 800px; /* controla o tamanho */
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.carrinho {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.carrinho ul {
+    list-style: none;
+    padding: 0;
+}
+
+.carrinho li {
+    margin-bottom: 5px;
+}
