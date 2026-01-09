@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Nil Frutas - Produtos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topo">
+    <img src="img/logo.png" alt="Nil Frutas - Cocos secos e ralado" class="logo-grande">
+
+    <nav class="menu">
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="produtos.html" class="ativo">Produtos</a>
+        <a href="contato.html">Contato</a>
+        <a href="faq.html">FAQ</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Nossos Produtos</h1>
+
+    <!-- DESTAQUE -->
+    <section class="destaque-loja">
+        <h2>Destaque da Loja – Coco ralado 300g</h2>
+
+        <div class="produto destaque">
+            <img src="img/produto-coco.png" alt="Coco ralado Nil Frutas">
+            <h3>Coco seco ralado</h3>
+            <p>Produto artesanal, ideal para bolos e doces.</p>
+            <p><strong>Preço:</strong> R$ 6,00</p>
+
+            <input type="number" min="1" value="1" id="qtd-coco">
+            <button onclick="adicionarCarrinho('Coco seco ralado', 6.00, 'qtd-coco')">
+                Adicionar ao carrinho
+            </button>
+        </div>
+    </section>
+
+    <!-- LINHA 1 -->
+    <h2>Frutas Tropicais</h2>
+
+    <div class="produto">
+        <h3>Banana</h3>
+        <p>Preço: R$ 4,50 / kg</p>
+        <input type="number" min="1" value="1" id="qtd-banana">
+        <button onclick="adicionarCarrinho('Banana', 4.50, 'qtd-banana')">Adicionar</button>
+    </div>
+
+    <div class="produto">
+        <h3>Manga</h3>
+        <p>Preço: R$ 6,00 / kg</p>
+        <input type="number" min="1" value="1" id="qtd-manga">
+        <button onclick="adicionarCarrinho('Manga', 6.00, 'qtd-manga')">Adicionar</button>
+    </div>
+
+    <div class="produto">
+        <h3>Mamão</h3>
+        <p>Preço: R$ 5,00 / kg</p>
+        <input type="number" min="1" value="1" id="qtd-mamao">
+        <button onclick="adicionarCarrinho('Mamão', 5.00, 'qtd-mamao')">Adicionar</button>
+    </div>
+
+    <div class="produto">
+        <h3>Abacaxi</h3>
+        <p>Preço: R$ 7,00 / un</p>
+        <input type="number" min="1" value="1" id="qtd-abacaxi">
+        <button onclick="adicionarCarrinho('Abacaxi', 7.00, 'qtd-abacaxi')">Adicionar</button>
+    </div>
+
+    <!-- LINHA 2 -->
+    <h2>Frutas Cítricas</h2>
+
+    <div class="produto">
+        <h3>Laranja</h3>
+        <p>Preço: R$ 3,50 / kg</p>
+        <input type="number" min="1" value="1" id="qtd-laranja">
+        <button onclick="adicionarCarrinho('Laranja', 3.50, 'qtd-laranja')">Adicionar</button>
+    </div>
+
+    <div class="produto">
+        <h3>Limão</h3>
+        <p>Preço: R$ 4,00 / kg</p>
+        <input type="number" min="1" value="1" id="qtd-limao">
+        <button onclick="adicionarCarrinho('Limão', 4.00, 'qtd-limao')">Adicionar</button>
+    </div>
+
+    <div class="produto">
+        <h3>Tangerina</h3>
+        <p>Preço: R$ 4,80 / kg</p>
+        <input type="number" min="1" value="1" id="qtd-tangerina">
+        <button onclick="adicionarCarrinho('Tangerina', 4.80, 'qtd-tangerina')">Adicionar</button>
+    </div>
+
+    <div class="produto">
+        <h3>Acerola</h3>
+        <p>Preço: R$ 6,50 / kg</p>
+        <input type="number" min="1" value="1" id="qtd-acerola">
+        <button onclick="adicionarCarrinho('Acerola', 6.50, 'qtd-acerola')">Adicionar</button>
+    </div>
+
+    <!-- LINHA 3 -->
+    <h2>Frutas Importadas</h2>
+
+    <div class="produto">
+        <h3>Maçã</h3>
+        <p>Preço: R$ 7,00 / kg</p>
+        <input type="number" min="1" value="1" id="qtd-maca">
+        <button onclick="adicionarCarrinho('Maçã', 7.00, 'qtd-maca')">Adicionar</button>
+    </div>
+
+    <div class="produto">
+        <h3>Uva</h3>
+        <p>Preço: R$ 9,00 / kg</p>
+        <input type="number" min="1" value="1" id="qtd-uva">
+        <button onclick="adicionarCarrinho('Uva', 9.00, 'qtd-uva')">Adicionar</button>
+    </div>
+
+    <div class="produto">
+        <h3>Pera</h3>
+        <p>Preço: R$ 8,50 / kg</p>
+        <input type="number" min="1" value="1" id="qtd-pera">
+        <button onclick="adicionarCarrinho('Pera', 8.50, 'qtd-pera')">Adicionar</button>
+    </div>
+
+    <div class="produto">
+        <h3>Kiwi</h3>
+        <p>Preço: R$ 10,00 / kg</p>
+        <input type="number" min="1" value="1" id="qtd-kiwi">
+        <button onclick="adicionarCarrinho('Kiwi', 10.00, 'qtd-kiwi')">Adicionar</button>
+    </div>
+
+    <!-- CARRINHO -->
+    <section class="carrinho">
+        <h2>Carrinho de Compras</h2>
+        <ul id="lista-carrinho"></ul>
+
+        <p><strong>Frete:</strong> R$ 5,00</p>
+        <p><strong>Total:</strong> R$ <span id="total">0.00</span></p>
+
+        <h3>Endereço de Entrega</h3>
+        <input type="text" id="nome" placeholder="Nome do cliente">
+        <input type="text" id="bairro" placeholder="Bairro">
+        <input type="text" id="rua" placeholder="Rua">
+        <input type="text" id="numero" placeholder="Número">
+        <input type="text" id="referencia" placeholder="Ponto de referência">
+
+        <button onclick="finalizarPedido()">Finalizar pedido pelo WhatsApp</button>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 - Nil Frutas – Cocos secos e ralado</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
