@@ -200,7 +200,7 @@ footer {
 }
 
 .form-contato button {
-    margin-top: 20px;   /* 👈 AQUI resolve o problema */
+    margin-top: 20px;
     padding: 14px;
     font-size: 18px;
     background: #2e7d32;
